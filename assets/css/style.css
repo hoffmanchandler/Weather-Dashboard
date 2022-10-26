@@ -1,0 +1,85 @@
+.Title {
+    font-size: 30px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.citys{
+    border-right: dotted black;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.cityEntry{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cityPreset{
+    display: flex;
+    flex-direction: column;
+}
+
+.popCity {
+    margin: 10px;
+}
+
+.weatherOutput {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.curWeather {
+    border: solid black;
+    align-content: stretch;
+    padding: 50px;
+}
+
+.forcast {
+    font-weight: bold;
+}
+
+.futureWeather {
+    color: black;
+    display: inline-flex;
+    justify-content: left;
+}
+
+.day1 {
+    width: 200px;
+    height: 200px;
+    border: solid black 2px;
+}
+
+.day2 {
+    width: 200px;
+    height: 200px;
+    border: solid black 2px;
+}
+
+.day3 {
+    width: 200px;
+    height: 200px;
+    border: solid black 2px;
+}
+
+.day4 {
+    width: 200px;
+    height: 200px;
+    border: solid black 2px;
+}
+
+.day5 {
+    width: 200px;
+    height: 200px;
+    border: solid black 2px;
+}
